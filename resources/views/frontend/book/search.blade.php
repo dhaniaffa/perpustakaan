@@ -6,8 +6,8 @@
 @endpush
 
 @section('content')
-    <h4>SEARCH</h4>
-    <div class="container center">
+    <h4 style="text-align: center">SEARCH</h4>
+    <div class="center" style="margin-bottom: 100px">
         <table id="example" class="mdl-data-table right" style="">
             <thead>
             <tr>
