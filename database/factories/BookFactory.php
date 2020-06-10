@@ -6,6 +6,7 @@ use App\Book;
 use Faker\Generator as Faker;
 use App\Author;
 
+// Seeding Buku
 $factory->define(Book::class, function (Faker $faker) {
     $random = rand(1, 100);
     $cover = "https://picsum.photos/id/{$random}/200/300";

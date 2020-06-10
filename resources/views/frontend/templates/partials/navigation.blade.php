@@ -32,7 +32,7 @@
         <li><a href="{{route('login')}}">Login</a></li>
         <li><a href="{{route('register')}}">Register</a></li>
     @else
-        <li><a href="{{route('home')}}"><i class="material-icons">home</i>Beranda</a></li>
+        <li><a href="{{route('homepage')}}"><i class="material-icons">home</i>Beranda</a></li>
         <li class="divider" tabindex="-1"></li>
         <li><a href="{{route('book.search')}}"><i class="material-icons">search</i>Cari</a></li>
         <li class="divider" tabindex="-1"></li>

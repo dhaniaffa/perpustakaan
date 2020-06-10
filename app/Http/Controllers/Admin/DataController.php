@@ -35,7 +35,6 @@ class DataController extends Controller
 
     // Log Peminjaman
     public function borrows(){
-//        $pinjam = BorrowHistory::where('returned_at', null)->latest();
         $pinjam = BorrowHistory::isBorrow()->latest();
 
         return datatables()->of($pinjam)
