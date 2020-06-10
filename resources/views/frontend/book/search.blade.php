@@ -25,7 +25,6 @@
             </tbody>
         </table>
     </div>
-</section>
 @endsection
 
 @push('search')
